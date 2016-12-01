@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  MainViewController.h
 //  RLLastLineTextView
 //
 //  Created by LiuMingchuan on 2016/12/2.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface ViewController : UIViewController
-
+@interface MainViewController : BaseViewController
 
 @end
-

@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		448FFAB65B2E28C550569A2D /* libPods-RLLastLineTextViewTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1800BF3A4C76A174F31115C1 /* libPods-RLLastLineTextViewTests.a */; };
 		54AA64BD1DF08C860015022E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64BC1DF08C860015022E /* main.m */; };
 		54AA64C01DF08C860015022E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64BF1DF08C860015022E /* AppDelegate.m */; };
-		54AA64C31DF08C860015022E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64C21DF08C860015022E /* ViewController.m */; };
-		54AA64C61DF08C860015022E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AA64C41DF08C860015022E /* Main.storyboard */; };
 		54AA64C81DF08C860015022E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54AA64C71DF08C860015022E /* Assets.xcassets */; };
 		54AA64CB1DF08C860015022E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54AA64C91DF08C860015022E /* LaunchScreen.storyboard */; };
 		54AA64D61DF08C860015022E /* RLLastLineTextViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64D51DF08C860015022E /* RLLastLineTextViewTests.m */; };
 		54AA64E11DF08C860015022E /* RLLastLineTextViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64E01DF08C860015022E /* RLLastLineTextViewUITests.m */; };
+		54AA64F11DF08CE20015022E /* RLLLTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64F01DF08CE20015022E /* RLLLTextView.m */; };
+		54AA64F51DF08E0B0015022E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64F31DF08E0B0015022E /* MainViewController.m */; };
+		54AA64F61DF08E0B0015022E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AA64F41DF08E0B0015022E /* MainViewController.xib */; };
+		54AA64F91DF092F90015022E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64F81DF092F90015022E /* BaseViewController.m */; };
+		57CFCAEF3B131E5436425403 /* libPods-RLLastLineTextViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA5A6091CD1DD068431CAD0 /* libPods-RLLastLineTextViewUITests.a */; };
+		EEF2D4A150C9C4431759B376 /* libPods-RLLastLineTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 838FA4577E375A4E2F1F6B47 /* libPods-RLLastLineTextView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,13 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1800BF3A4C76A174F31115C1 /* libPods-RLLastLineTextViewTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLLastLineTextViewTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D79516F4EB69FD9BA206BAD /* Pods-RLLastLineTextViewTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextViewTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextViewTests/Pods-RLLastLineTextViewTests.release.xcconfig"; sourceTree = "<group>"; };
 		54AA64B81DF08C860015022E /* RLLastLineTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RLLastLineTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AA64BC1DF08C860015022E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54AA64BE1DF08C860015022E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54AA64BF1DF08C860015022E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		54AA64C11DF08C860015022E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		54AA64C21DF08C860015022E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		54AA64C51DF08C860015022E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		54AA64C71DF08C860015022E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		54AA64CA1DF08C860015022E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54AA64CC1DF08C860015022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +55,20 @@
 		54AA64DC1DF08C860015022E /* RLLastLineTextViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RLLastLineTextViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54AA64E01DF08C860015022E /* RLLastLineTextViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RLLastLineTextViewUITests.m; sourceTree = "<group>"; };
 		54AA64E21DF08C860015022E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54AA64EF1DF08CE20015022E /* RLLLTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RLLLTextView.h; sourceTree = "<group>"; };
+		54AA64F01DF08CE20015022E /* RLLLTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RLLLTextView.m; sourceTree = "<group>"; };
+		54AA64F21DF08E0B0015022E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		54AA64F31DF08E0B0015022E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		54AA64F41DF08E0B0015022E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		54AA64F71DF092F90015022E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		54AA64F81DF092F90015022E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		74488C986F00D36BBE562B98 /* Pods-RLLastLineTextViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextViewUITests/Pods-RLLastLineTextViewUITests.release.xcconfig"; sourceTree = "<group>"; };
+		804EC3A710B8F4CE4A84C8D4 /* Pods-RLLastLineTextViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextViewTests/Pods-RLLastLineTextViewTests.debug.xcconfig"; sourceTree = "<group>"; };
+		838FA4577E375A4E2F1F6B47 /* libPods-RLLastLineTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLLastLineTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		916AD28D22FAE1B7B1FAC92F /* Pods-RLLastLineTextViewUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextViewUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextViewUITests/Pods-RLLastLineTextViewUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD59B73B8B13555F7A7BAB4A /* Pods-RLLastLineTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextView/Pods-RLLastLineTextView.debug.xcconfig"; sourceTree = "<group>"; };
+		F83B62A0512B9969874C07C3 /* Pods-RLLastLineTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextView/Pods-RLLastLineTextView.release.xcconfig"; sourceTree = "<group>"; };
+		FBA5A6091CD1DD068431CAD0 /* libPods-RLLastLineTextViewUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLLastLineTextViewUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF2D4A150C9C4431759B376 /* libPods-RLLastLineTextView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				448FFAB65B2E28C550569A2D /* libPods-RLLastLineTextViewTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57CFCAEF3B131E5436425403 /* libPods-RLLastLineTextViewUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +106,8 @@
 				54AA64D41DF08C860015022E /* RLLastLineTextViewTests */,
 				54AA64DF1DF08C860015022E /* RLLastLineTextViewUITests */,
 				54AA64B91DF08C860015022E /* Products */,
+				A1446FD220ED5FC196069745 /* Pods */,
+				729673D118FB905F7E67DC2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,11 +124,12 @@
 		54AA64BA1DF08C860015022E /* RLLastLineTextView */ = {
 			isa = PBXGroup;
 			children = (
+				54AA64EE1DF08CAC0015022E /* Common */,
+				54AA64F21DF08E0B0015022E /* MainViewController.h */,
+				54AA64F31DF08E0B0015022E /* MainViewController.m */,
+				54AA64F41DF08E0B0015022E /* MainViewController.xib */,
 				54AA64BE1DF08C860015022E /* AppDelegate.h */,
 				54AA64BF1DF08C860015022E /* AppDelegate.m */,
-				54AA64C11DF08C860015022E /* ViewController.h */,
-				54AA64C21DF08C860015022E /* ViewController.m */,
-				54AA64C41DF08C860015022E /* Main.storyboard */,
 				54AA64C71DF08C860015022E /* Assets.xcassets */,
 				54AA64C91DF08C860015022E /* LaunchScreen.storyboard */,
 				54AA64CC1DF08C860015022E /* Info.plist */,
@@ -140,6 +164,40 @@
 			path = RLLastLineTextViewUITests;
 			sourceTree = "<group>";
 		};
+		54AA64EE1DF08CAC0015022E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				54AA64EF1DF08CE20015022E /* RLLLTextView.h */,
+				54AA64F01DF08CE20015022E /* RLLLTextView.m */,
+				54AA64F71DF092F90015022E /* BaseViewController.h */,
+				54AA64F81DF092F90015022E /* BaseViewController.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		729673D118FB905F7E67DC2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				838FA4577E375A4E2F1F6B47 /* libPods-RLLastLineTextView.a */,
+				1800BF3A4C76A174F31115C1 /* libPods-RLLastLineTextViewTests.a */,
+				FBA5A6091CD1DD068431CAD0 /* libPods-RLLastLineTextViewUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1446FD220ED5FC196069745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD59B73B8B13555F7A7BAB4A /* Pods-RLLastLineTextView.debug.xcconfig */,
+				F83B62A0512B9969874C07C3 /* Pods-RLLastLineTextView.release.xcconfig */,
+				804EC3A710B8F4CE4A84C8D4 /* Pods-RLLastLineTextViewTests.debug.xcconfig */,
+				4D79516F4EB69FD9BA206BAD /* Pods-RLLastLineTextViewTests.release.xcconfig */,
+				916AD28D22FAE1B7B1FAC92F /* Pods-RLLastLineTextViewUITests.debug.xcconfig */,
+				74488C986F00D36BBE562B98 /* Pods-RLLastLineTextViewUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54AA64E51DF08C860015022E /* Build configuration list for PBXNativeTarget "RLLastLineTextView" */;
 			buildPhases = (
+				8DAE49809C187BD565112A73 /* [CP] Check Pods Manifest.lock */,
 				54AA64B41DF08C860015022E /* Sources */,
 				54AA64B51DF08C860015022E /* Frameworks */,
 				54AA64B61DF08C860015022E /* Resources */,
+				3BFC5FABF650AB5DC9717947 /* [CP] Embed Pods Frameworks */,
+				0639F6D16A2800142FECFAC7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54AA64E81DF08C860015022E /* Build configuration list for PBXNativeTarget "RLLastLineTextViewTests" */;
 			buildPhases = (
+				4B8D2DC9D0286D6F4E6E097C /* [CP] Check Pods Manifest.lock */,
 				54AA64CD1DF08C860015022E /* Sources */,
 				54AA64CE1DF08C860015022E /* Frameworks */,
 				54AA64CF1DF08C860015022E /* Resources */,
+				99CB189AD32C09248BB5E4B8 /* [CP] Embed Pods Frameworks */,
+				C8FF5C35FB03698875D288DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54AA64EB1DF08C860015022E /* Build configuration list for PBXNativeTarget "RLLastLineTextViewUITests" */;
 			buildPhases = (
+				BCD36100E0AFAE6A98000016 /* [CP] Check Pods Manifest.lock */,
 				54AA64D81DF08C860015022E /* Sources */,
 				54AA64D91DF08C860015022E /* Frameworks */,
 				54AA64DA1DF08C860015022E /* Resources */,
+				D04BF59EB61F98A2AFC6E078 /* [CP] Embed Pods Frameworks */,
+				07F95F2B6ECDEF15EA0C264A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,8 +317,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54AA64CB1DF08C860015022E /* LaunchScreen.storyboard in Resources */,
+				54AA64F61DF08E0B0015022E /* MainViewController.xib in Resources */,
 				54AA64C81DF08C860015022E /* Assets.xcassets in Resources */,
-				54AA64C61DF08C860015022E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,14 +338,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0639F6D16A2800142FECFAC7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLLastLineTextView/Pods-RLLastLineTextView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		07F95F2B6ECDEF15EA0C264A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLLastLineTextViewUITests/Pods-RLLastLineTextViewUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BFC5FABF650AB5DC9717947 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLLastLineTextView/Pods-RLLastLineTextView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B8D2DC9D0286D6F4E6E097C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8DAE49809C187BD565112A73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		99CB189AD32C09248BB5E4B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLLastLineTextViewTests/Pods-RLLastLineTextViewTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD36100E0AFAE6A98000016 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8FF5C35FB03698875D288DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLLastLineTextViewTests/Pods-RLLastLineTextViewTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D04BF59EB61F98A2AFC6E078 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RLLastLineTextViewUITests/Pods-RLLastLineTextViewUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		54AA64B41DF08C860015022E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54AA64C31DF08C860015022E /* ViewController.m in Sources */,
 				54AA64C01DF08C860015022E /* AppDelegate.m in Sources */,
+				54AA64F91DF092F90015022E /* BaseViewController.m in Sources */,
+				54AA64F11DF08CE20015022E /* RLLLTextView.m in Sources */,
 				54AA64BD1DF08C860015022E /* main.m in Sources */,
+				54AA64F51DF08E0B0015022E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,14 +521,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		54AA64C41DF08C860015022E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				54AA64C51DF08C860015022E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		54AA64C91DF08C860015022E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -423,6 +622,7 @@
 		};
 		54AA64E61DF08C860015022E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD59B73B8B13555F7A7BAB4A /* Pods-RLLastLineTextView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZLWT774EAE;
@@ -435,6 +635,7 @@
 		};
 		54AA64E71DF08C860015022E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F83B62A0512B9969874C07C3 /* Pods-RLLastLineTextView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = ZLWT774EAE;
@@ -447,6 +648,7 @@
 		};
 		54AA64E91DF08C860015022E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 804EC3A710B8F4CE4A84C8D4 /* Pods-RLLastLineTextViewTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZLWT774EAE;
@@ -460,6 +662,7 @@
 		};
 		54AA64EA1DF08C860015022E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D79516F4EB69FD9BA206BAD /* Pods-RLLastLineTextViewTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = ZLWT774EAE;
@@ -473,6 +676,7 @@
 		};
 		54AA64EC1DF08C860015022E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 916AD28D22FAE1B7B1FAC92F /* Pods-RLLastLineTextViewUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZLWT774EAE;
 				INFOPLIST_FILE = RLLastLineTextViewUITests/Info.plist;
@@ -485,6 +689,7 @@
 		};
 		54AA64ED1DF08C860015022E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74488C986F00D36BBE562B98 /* Pods-RLLastLineTextViewUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = ZLWT774EAE;
 				INFOPLIST_FILE = RLLastLineTextViewUITests/Info.plist;
@@ -514,6 +719,7 @@
 				54AA64E71DF08C860015022E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54AA64E81DF08C860015022E /* Build configuration list for PBXNativeTarget "RLLastLineTextViewTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +728,7 @@
 				54AA64EA1DF08C860015022E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54AA64EB1DF08C860015022E /* Build configuration list for PBXNativeTarget "RLLastLineTextViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +737,7 @@
 				54AA64ED1DF08C860015022E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
