@@ -18,7 +18,7 @@
 		54AA64F51DF08E0B0015022E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64F31DF08E0B0015022E /* MainViewController.m */; };
 		54AA64F61DF08E0B0015022E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 54AA64F41DF08E0B0015022E /* MainViewController.xib */; };
 		54AA64F91DF092F90015022E /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54AA64F81DF092F90015022E /* BaseViewController.m */; };
-		54AA64FF1DF09DE00015022E /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54AA64FE1DF09DE00015022E /* 1.gif */; };
+		54AA65011DF1E0480015022E /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54AA65001DF1E0480015022E /* 1.gif */; };
 		57CFCAEF3B131E5436425403 /* libPods-RLLastLineTextViewUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA5A6091CD1DD068431CAD0 /* libPods-RLLastLineTextViewUITests.a */; };
 		EEF2D4A150C9C4431759B376 /* libPods-RLLastLineTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 838FA4577E375A4E2F1F6B47 /* libPods-RLLastLineTextView.a */; };
 /* End PBXBuildFile section */
@@ -63,7 +63,7 @@
 		54AA64F41DF08E0B0015022E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		54AA64F71DF092F90015022E /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
 		54AA64F81DF092F90015022E /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
-		54AA64FE1DF09DE00015022E /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		54AA65001DF1E0480015022E /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
 		74488C986F00D36BBE562B98 /* Pods-RLLastLineTextViewUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextViewUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextViewUITests/Pods-RLLastLineTextViewUITests.release.xcconfig"; sourceTree = "<group>"; };
 		804EC3A710B8F4CE4A84C8D4 /* Pods-RLLastLineTextViewTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RLLastLineTextViewTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RLLastLineTextViewTests/Pods-RLLastLineTextViewTests.debug.xcconfig"; sourceTree = "<group>"; };
 		838FA4577E375A4E2F1F6B47 /* libPods-RLLastLineTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RLLastLineTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -104,7 +104,6 @@
 		54AA64AF1DF08C860015022E = {
 			isa = PBXGroup;
 			children = (
-				54AA64FE1DF09DE00015022E /* 1.gif */,
 				54AA64BA1DF08C860015022E /* RLLastLineTextView */,
 				54AA64D41DF08C860015022E /* RLLastLineTextViewTests */,
 				54AA64DF1DF08C860015022E /* RLLastLineTextViewUITests */,
@@ -127,6 +126,7 @@
 		54AA64BA1DF08C860015022E /* RLLastLineTextView */ = {
 			isa = PBXGroup;
 			children = (
+				54AA65001DF1E0480015022E /* 1.gif */,
 				54AA64EE1DF08CAC0015022E /* Common */,
 				54AA64F21DF08E0B0015022E /* MainViewController.h */,
 				54AA64F31DF08E0B0015022E /* MainViewController.m */,
@@ -321,7 +321,7 @@
 			files = (
 				54AA64CB1DF08C860015022E /* LaunchScreen.storyboard in Resources */,
 				54AA64F61DF08E0B0015022E /* MainViewController.xib in Resources */,
-				54AA64FF1DF09DE00015022E /* 1.gif in Resources */,
+				54AA65011DF1E0480015022E /* 1.gif in Resources */,
 				54AA64C81DF08C860015022E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

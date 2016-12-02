@@ -12,7 +12,7 @@
 
 -(void)setText:(NSString *)text {
     [super setText:text];
-    [self scrollRangeToVisible:NSMakeRange(text.length, 2)];
+    [self scrollRangeToVisible:NSMakeRange(text.length, 1)];
     self.layoutManager.allowsNonContiguousLayout = NO;
 }
 /*
